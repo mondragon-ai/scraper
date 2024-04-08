@@ -1,0 +1,29 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Web Scraper",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mondragon-ai/scraper.git"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "author": "angel mondragon",
+  "bugs": {
+    "url": "https://github.com/mondragon-ai/scraper/issues"
+  },
+  "homepage": "https://github.com/mondragon-ai/scraper#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
